@@ -9,7 +9,7 @@
 #define GESTURE_RECOG_H_
 #include <stdio.h>
 #include <math.h>
-
+#include "accelerometers/accavg.h"
 void update(void);
 
 #endif /* GESTURE_RECOG_H_ */
