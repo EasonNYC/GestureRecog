@@ -15,5 +15,6 @@
 void calc_average(float* avg_x, float* avg_y, float* avg_z);
 void calc_pitch_roll(float acc_x, float acc_y, float acc_z, float *pitch, float *roll);
 void printPitchRoll(void);
+void collectAccelData(void);
 
 #endif /* ACCELEROMETERS_ACCAVG_H_ */
