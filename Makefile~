@@ -1,13 +1,13 @@
 # Source files 
-SRCS = main.c system_stm32f4xx.c
+SRCS = main.c system_stm32f4xx.c funcs1.s
 
-ACCELEROMETER_SRCS = accelerometers/accelerometers.c accelerometers/accavg.c accelerometers/tm_accelerometers/tm_stm32f4_lis302dl_lis3dsh.c accelerometers/tm_accelerometers/tm_stm32f4_spi.c
+ACCELEROMETER_SRCS = accelerometers/accelerometers.c accelerometers/tm_accelerometers/tm_stm32f4_lis302dl_lis3dsh.c accelerometers/tm_accelerometers/tm_stm32f4_spi.c
 TIMEDTASK_SRCS = timed_task.c
 GESTURERECOG_SRCS = gesture_recog.c
 SRCS += $(ACCELEROMETER_SRCS) $(TIMEDTASK_SRCS) $(GESTURERECOG_SRCS)
 
 # Binary will be generated with this name (with .elf filename extension)
-PROJ_NAME=STM32_Gesture_example
+PROJ_NAME=STM32_example
 
 # You should not need to change anything below this line!
 #######################################################################################
